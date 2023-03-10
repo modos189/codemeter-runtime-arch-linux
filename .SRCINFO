@@ -1,0 +1,20 @@
+pkgbase = codemeter-runtime
+	pkgdesc = codemeter runtime (server and cli tools, and GUI)
+	pkgver = 7.60.5598.500
+	pkgrel = 2
+	url = http://www.codemeter.de/
+	install = codemeter-runtime.install
+	arch = x86_64
+	license = custom
+	depends = libusb
+	depends = fakeroot
+	backup = etc/wibu/CodeMeter/Server.ini
+	source = codemeter_7.60.5598.500_amd64.deb
+	source = codemeter.service
+	source = sysusers.conf
+	sha512sums = 2e3ddaf72b7f3a09dc8c077fe6c349201eb77783fed8b9f185a92eb4c8f1dfbe645a85010a2abfcabd53ee613a6e28e3d91f99b3399dc26a19bd5c07e51a6dad
+	sha512sums = 7497cde13f40ae3cbc02b821f4aee1da02c6955ef278aa5f01779a988e5d07193a69be64fb9b529358764b58dc29ad451c0fca10659c40cfa499e03f41f31362
+	sha512sums = 0acee8febd3f5763ee493c42fbd1a435b1c2572e9cab68c9da81f858dd6c7d4d5aad88deffd5b454b95f0e7492faf786f779c4c883b20ff8ea4e7006f2c3a46b
+
+pkgname = codemeter-runtime
+
